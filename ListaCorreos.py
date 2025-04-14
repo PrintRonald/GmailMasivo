@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Cargar el archivo Excel
-file_path = "6Basico.xlsx"  # Cambia esto por la ruta de tu archivo
+file_path = "5BB.xlsx"  # Cambia esto por la ruta de tu archivo
 df = pd.read_excel(file_path)
 
 # Suponiendo que la columna con los correos se llama "Email"
