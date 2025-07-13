@@ -1,11 +1,11 @@
 import pandas as pd
 
 # Cargar el archivo Excel
-file_path = "5BB.xlsx"  # Cambia esto por la ruta de tu archivo
+file_path = "6BB.xlsx"  # Cambia esto por la ruta de tu archivo
 df = pd.read_excel(file_path)
 
 # Suponiendo que la columna con los correos se llama "Email"
-email_list = df["5B"].dropna().tolist()  # Elimina valores vacíos y convierte en lista
+email_list = df["6B"].dropna().tolist()  # Elimina valores vacíos y convierte en lista
 
 #print(email_list)  # Ver la lista de correos
 
